@@ -60,7 +60,9 @@ const DetailCard = () => {
                         <p className='text-sm font-normal text-slate-400'>(01.01.2022 - 01:40:47)</p>
                     </div>
                 </div>
-                <Button2 text = {"Place a bid"}/>
+                <button className={`${styles2.button} ${styles2.button2}`} style={{width:"100%"}}>
+                    <p className={styles2.buttonText} style={{color:"#FFF"}}>Place a bid</p>
+                </button>
             </div>
             <div>
                 <p className='font-normal text-sm text-slate-300'>History of bids (12 people are bidding)</p>
