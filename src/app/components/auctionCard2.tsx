@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Image from "next/image";
 import Link from 'next/link';
 
-function AuctionsCard2({data}) {
+function AuctionsCard2({data}:any) {
     const [liked, setLiked] = useState(data.liked)
     const toggleLike = () => {
         setLiked(!liked)
