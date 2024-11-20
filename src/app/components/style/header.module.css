@@ -1,0 +1,333 @@
+.texts{
+  font-size: 8rem;
+}
+.textDown{
+  color:#7780A1;
+  font-size: 1.5rem;
+}
+.textUp{
+  font-size: 0.875rem;
+}
+.sideImage{
+  width: 2.5rem;
+  height: 5.68rem;
+}
+.bottomScrollImage{
+  width: 5.56rem;
+  height: 5.56rem;
+}
+.bottomScrollText{
+  font-size: 0.875rem;
+  margin-bottom: 20px;
+}
+.statText1{
+  font-size: 2.25rem;
+}
+.statText2{
+  font-size: 1rem;
+}
+.statImage1{
+  width: 2rem;
+  height: 2rem;
+}
+.envelopeText1{
+  font-size: 3rem;
+}
+.overlineView{
+  width: 66.66667%;
+}
+.category{
+  margin-right: 2.5rem;
+  font-size: 1rem;
+  text-align: center;
+  align-self: center;
+}
+.actionCards{
+  display:flex;
+}
+.footer{
+  flex-direction: row;
+}
+.header{
+    background-image: url('/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.middle{
+    background-image: url('/headerBackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 150px;
+}
+.envelope{
+    background: linear-gradient(188.08deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 93.79%),
+    linear-gradient(0deg, #060714, #060714);
+    display: flex;
+    border-radius: 0px 20px 20px 20px;
+}
+.button2{
+    background: linear-gradient(104.42deg, #4745D0 0%, #2A27C9 60.23%);
+    padding: 16px 24px;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
+  .saleCard1 {
+    max-width: 448px;
+  }
+  .bottomSale {
+    background: linear-gradient(188.08deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0) 93.79%),
+    linear-gradient(0deg, #060714, #060714);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-top-width: 0px;
+    border-radius: 0px 0px 20px  20px;
+    padding: 50px;
+
+  }
+  .saleCard2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #262840;
+    background: #060714;
+    border-radius: 20px;
+    padding: 50px 0px;
+    max-width: 448px;
+  }
+  .detailPrice{
+    background: linear-gradient(187.96deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0) 93.86%),
+    linear-gradient(0deg, #060714, #060714);
+    border-radius: 20px;
+    padding: 20px;
+  }
+
+  @media (max-width: 1214px) {
+    .texts{
+      font-size: 7rem;
+    }
+    .textDown{
+      font-size: 1.4rem;
+    }
+    .textUp{
+      font-size: 0.775rem;
+    }
+    
+  }
+  @media (max-width: 979px) {
+    .texts{
+      font-size: 6rem;
+    }
+    .textDown{
+      font-size: 1.3rem;
+    }
+    .textUp{
+      font-size: 0.675rem;
+    }
+    .sideImage{
+      width: 2rem;
+      height: 5rem;
+    }
+    .category{
+      margin-right: 1.5rem;
+      font-size: 0.8rem;
+    }
+    .actionCards{
+      flex-direction: column;
+      align-items: center;
+    }
+    .bottomScrollImage{
+      width: 3.56rem;
+      height: 3.56rem;
+    }
+    .bottomScrollText{
+      font-size: 0.6rem;
+    }
+    .statText1{
+      font-size: 2rem;
+    }
+    .statText2{
+      font-size: 0.9rem;
+    }
+    .statImage1{
+      width: 1.8rem;
+      height: 1.8rem;
+    }
+    .envelopeText1{
+      font-size: 2.6rem;
+    }
+    .detailCard{
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  @media (max-width: 746px) {
+    .texts{
+      font-size: 5rem;
+    }
+    .textDown{
+      font-size: 1.2rem;
+    }
+    .textUp{
+      font-size: 0.575rem;
+    }
+    .sideImage{
+      width: 1.2rem;
+      height: 4.68rem;
+    }
+    .bottomScrollText{
+      font-size: 0.5rem;
+    }
+    .statText1{
+      font-size: 1.8rem;
+    }
+    .statText2{
+      font-size: 0.8rem;
+    }
+    .statImage1{
+      width: 1.6rem;
+      height: 1.6rem;
+    }
+    .envelopeText1{
+      font-size: 2.2rem;
+    }
+    .img{
+      display: none;
+    }
+    .overlineView{
+      width: 100%;
+    }
+    .overline{
+      flex-direction: column;
+      align-items: center;
+    }
+    .footer{
+      flex-direction: column;
+      border-width: 0;
+    }
+    .footer1{
+      width: auto;
+      margin-bottom: 40px;
+    }
+    .footer2{
+      width: auto;
+      border-width: 0;
+      margin-bottom: 40px;
+    }
+    .footer2a{
+      display: flex;
+      flex-direction: row;
+    }
+    .footer3{
+      flex-direction: row;
+      width: auto;
+    }
+    .row{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-right: 0;
+    }
+  }
+  @media (max-width: 630px) {
+    .texts{
+      font-size: 4rem;
+    }
+    .textDown{
+      font-size: 1.1rem;
+    }
+    .textUp{
+      font-size: 0.475rem;
+    }
+    .category{
+      margin-right: 1rem;
+      font-size: 0.6rem;
+    }
+    .sideImage{
+      width: 1rem;
+      height: 2.68rem;
+    }
+    .bottomScrollImage{
+      width: 2.56rem;
+      height: 2.56rem;
+    }
+    .statText1{
+      font-size: 1.5rem;
+    }
+    .statText2{
+      font-size: 0.7rem;
+    }
+    .statImage1{
+      width: 1.4rem;
+      height: 1.4rem;
+    }
+    .envelopeText1{
+      font-size: 1.8rem;
+    }
+  }
+  @media (max-width: 500px) {
+    .texts{
+      font-size: 3rem;
+    }
+    .textDown{
+      font-size: 1rem;
+    }
+    .textUp{
+      font-size: 0.375rem;
+    }
+    .sideImage{
+      width: 0.5rem;
+      height: 1.68rem;
+    }
+    .statText1{
+      font-size: 1.3rem;
+    }
+    .statText2{
+      font-size: 0.6rem;
+    }
+    .envelopeText1{
+      font-size: 1.4rem;
+    }
+  }
+  @media (max-width: 370px) {
+    .texts{
+      font-size: 2rem;
+    }
+    .textDown{
+      font-size: 0.9rem;
+    }
+    .textUp{
+      font-size: 0.275rem;
+    }
+    .category{
+      margin-right: 0.7rem;
+      font-size: 0.5rem;
+    }
+    .statText1{
+      font-size: 1.2rem;
+    }
+    .statText2{
+      font-size: 0.5rem;
+    }
+    .envelopeText1{
+      font-size: 1rem;
+    }
+  }
+  @media (max-width: 230px) {
+    .texts{
+      font-size: 1rem;
+    }
+    .textDown{
+      font-size: 0.8rem;
+    }
+    .textUp{
+      font-size: 0.175rem;
+    }
+  }
