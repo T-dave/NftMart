@@ -1,0 +1,53 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.19/libexec/bin/yarn.js
+
+PATH: 
+  /usr/local/Cellar/node/6.1.0/libexec/npm/bin:/Users/T-dave/Library/Android/sdk/platform-tools:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/Cellar/node/6.1.0/libexec/npm/bin:/Users/T-dave/Library/Android/sdk/platform-tools:/opt/local/bin:/opt/local/sbin:/Users/T-dave/.npm-global/bin:/opt/homebrew/bin:/Users/T-dave/.npm-global/bin:/opt/homebrew/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.11.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)
+
+npm manifest: 
+  {
+    "name": "nft-market",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "react": "^18",
+      "react-dom": "^18",
+      "next": "14.1.0"
+    },
+    "devDependencies": {
+      "typescript": "^5",
+      "@types/node": "^20",
+      "@types/react": "^18",
+      "@types/react-dom": "^18",
+      "autoprefixer": "^10.0.1",
+      "postcss": "^8",
+      "tailwindcss": "^3.3.0",
+      "eslint": "^8",
+      "eslint-config-next": "14.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
