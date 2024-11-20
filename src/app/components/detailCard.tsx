@@ -2,6 +2,7 @@ import React from 'react'
 import Image from "next/image";
 import styles from "./style/header.module.css"
 import { Button2 } from './buttons';
+import styles2 from "./style/navbar.module.css";
 
 const DetailCard = () => {
   return (
